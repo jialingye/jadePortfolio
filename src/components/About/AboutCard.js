@@ -8,33 +8,40 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            I am <span className="purple">Jade Ye </span>
+            living in suburb of <span className="purple">Chicago, IL</span>
+            <br /> I graduated from <span className="purple">University of Illinois at Urbana Champaign</span>.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            My major is <span className="purple">Civil and Environmental Engineering.</span> 
+            <br/>
+            <br/>
+            I used to build landfill, light pole, roadway, pipings. 
+            <br />
+            I've discovered that constructing digital infrastructure shares remarkable similarities with building physical infrastructures, but with an added element of speed and enjoyment. 
+            
+            <br/>
+            <br/>
+            My affinity for embracing novel technologies has led me to choose the path of studying software engineering during my maternity leave. I'm eager to delve deeper into this realm and explore its endless possibilities.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            My Past Jobs:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Project Engineer - Lisle, IL
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Civil Engineer - Naperville, IL
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Staff Engineer - Peoria, IL
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

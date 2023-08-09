@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import mindmap from "../../Assets/Projects/mindmap.png";
+import airbnb from "../../Assets/Projects/airbnb.png";
+import main from "../../Assets/Projects/main.png";
+import aicademy from "../../Assets/Projects/aicademy.png";
+import analysis from "../../Assets/Projects/analysis.png";
 
 function Projects() {
   return (
@@ -21,72 +20,61 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={aicademy}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="AIcademy"
+              description="Independently developed AIcademy using React for an intuitive UI that boosted course enrollment. Innovated AI-driven assessment with ChatGPT API, integrated Django and PostgreSQL for instant feedback. Employed React for dynamic progress tracking, visualizing learning through interactive bars. Introduced personalized course collections with React and Django, promoting collaborative learning."
+              ghLink="https://github.com/jialingye/p4_frontend"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
+        </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={airbnb}
+              isBlog={false}
+              title="CasaAmor Airbnb"
+              description="Built a MERN stack Airbnb-inspired platform catering to couples. Incorporated Google Maps API for streamlined address handling and location display. Developed an advanced booking system, avoiding conflicts in both frontend and backend, facilitating rescheduling and cancellation. Crafted comprehensive profiles, encompassing booking history, reviews, property management, and income tracking with D3.js."
+              ghLink="https://github.com/jialingye/project3-FrontEnd"
+              demoLink="https://casa-amor-airbnb.onrender.com/"              
+            />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={analysis}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Time Planner"
+              description="
+              I orchestrated the creation of a dynamic web task manager using Node.js, Express, MongoDB, and EJS. This system, enhanced by APIs like Bucketlist, Promodoro, and Chart.js, offers diverse planning views and personalized event searches. Chart.js further analyzes task completion trends, while the integrated ChatGPT API aids strategic planning through interactive prompts and chat functionality."
+              ghLink="https://github.com/jialingye/timeplanner"
+              demoLink="https://time-planner.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={main}
+              isBlog={false}
+              title="Hogwarts Treasures Hunt"
+              description="Crafted an engaging web game drawing inspiration from the Harry Potter series' treasure hunt. Leveraged HTML, CSS, and JavaScript to introduce clickable items, timers, animations, and an immersive user experience. Game logic and score tracking were implemented using vanilla JavaScript, showcasing seamless play and a dynamic leaderboard, highlighting my front-end development skills and creative solutions."
+              ghLink="https://github.com/jialingye/projectOne"
+              demoLink="https://jialingye.github.io/projectOne/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={mindmap}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Mindmap Todo List"
+              description="
+              I have developed a mindmap-based todo list application using Django/Python for the backend and Django views for the frontend. The app enables users to create projects with hierarchical nodes. Each node can have a parent node and tasks can be added under each node. The app draws relationship diagrams based on node relations, aiding users in visualizing project hierarchies and associated tasks."
+              ghLink="https://github.com/jialingye/miniproject"
+              demoLink="https://miniproject-8f5e.onrender.com/project/"
             />
           </Col>
+
+        
         </Row>
       </Container>
     </Container>
