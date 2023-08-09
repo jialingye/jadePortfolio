@@ -27,7 +27,7 @@ function Projects() {
               title="AIcademy"
               description="Independently developed AIcademy using React for an intuitive UI that boosted course enrollment. Innovated AI-driven assessment with ChatGPT API, integrated Django and PostgreSQL for instant feedback. Employed React for dynamic progress tracking, visualizing learning through interactive bars. Introduced personalized course collections with React and Django, promoting collaborative learning."
               ghLink="https://github.com/jialingye/p4_frontend"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://aicademy-5d534.web.app/"
             />
         </Col>
         <Col md={4} className="project-card">
