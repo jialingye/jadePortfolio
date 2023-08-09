@@ -37,7 +37,7 @@ function Projects() {
               title="CasaAmor Airbnb"
               description="Built a MERN stack Airbnb-inspired platform catering to couples. Incorporated Google Maps API for streamlined address handling and location display. Developed an advanced booking system, avoiding conflicts in both frontend and backend, facilitating rescheduling and cancellation. Crafted comprehensive profiles, encompassing booking history, reviews, property management, and income tracking with D3.js."
               ghLink="https://github.com/jialingye/project3-FrontEnd"
-              demoLink="https://casa-amor-airbnb.onrender.com/"              
+              demoLink="https://casaamor-3fab6.web.app/"              
             />
           </Col>
           <Col md={4} className="project-card">
