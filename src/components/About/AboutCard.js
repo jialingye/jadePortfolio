@@ -12,7 +12,7 @@ function AboutCard() {
             living in suburb of <span className="purple">Chicago, IL</span>
             <br /> I graduated from <span className="purple">University of Illinois at Urbana Champaign</span>.
             <br />
-            My major is <span className="purple">Civil and Environmental Engineering.</span> 
+            My major was <span className="purple">Civil and Environmental Engineering.</span> 
             <br/>
             <br/>
             I used to build landfill, light pole, roadway, pipings. 

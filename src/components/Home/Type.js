@@ -11,6 +11,7 @@ function Type() {
           'Project Engineer',
           "Full Stack Developer",
           "Web Developer",
+          "Woman Engineer"
         ],
         autoStart: true,
         loop: true,
