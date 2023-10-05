@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/jadePortfolio/static/css/main.dd96dbee.css",
-    "main.js": "/jadePortfolio/static/js/main.d73e39e5.js",
+    "main.css": "/jadePortfolio/static/css/main.45eba977.css",
+    "main.js": "/jadePortfolio/static/js/main.0424cd45.js",
     "static/js/415.4d6acbeb.chunk.js": "/jadePortfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/jadePortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/main.png": "/jadePortfolio/static/media/main.d206b9f338b5314b4b78.png",
     "static/media/airbnb.png": "/jadePortfolio/static/media/airbnb.278d82929d1f0752c1a2.png",
+    "static/media/avatar.png": "/jadePortfolio/static/media/avatar.4168d3a2e57c64eee72a.png",
     "static/media/aicademy.png": "/jadePortfolio/static/media/aicademy.1165a876ec8388705ebc.png",
     "static/media/mindmap.png": "/jadePortfolio/static/media/mindmap.a84988a1ece41f451b94.png",
+    "static/media/coding.png": "/jadePortfolio/static/media/coding.96b8e00cf844b2afa953.png",
     "static/media/Jade_resume_cs.pdf": "/jadePortfolio/static/media/Jade_resume_cs.04e933e9aef485568cfc.pdf",
     "static/media/analysis.png": "/jadePortfolio/static/media/analysis.616ddc387a0c3736b4f8.png",
-    "static/media/home-main.svg": "/jadePortfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/jadePortfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/working.png": "/jadePortfolio/static/media/working.8b848656cbc62fa214dc.png",
     "static/media/home-bg.jpg": "/jadePortfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/jadePortfolio/static/media/avatar.b3075a97fd4ca38b112f93bcfb048d33.svg",
-    "static/media/logo.png": "/jadePortfolio/static/media/logo.941f25203c0ee4dc58f4.png",
+    "static/media/logo.png": "/jadePortfolio/static/media/logo.e5c7bc0afdde5f6f49ae.png",
     "static/media/pre.svg": "/jadePortfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/jadePortfolio/index.html",
-    "main.dd96dbee.css.map": "/jadePortfolio/static/css/main.dd96dbee.css.map",
-    "main.d73e39e5.js.map": "/jadePortfolio/static/js/main.d73e39e5.js.map",
+    "main.45eba977.css.map": "/jadePortfolio/static/css/main.45eba977.css.map",
+    "main.0424cd45.js.map": "/jadePortfolio/static/js/main.0424cd45.js.map",
     "415.4d6acbeb.chunk.js.map": "/jadePortfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/jadePortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd96dbee.css",
-    "static/js/main.d73e39e5.js"
+    "static/css/main.45eba977.css",
+    "static/js/main.0424cd45.js"
   ]
 }
